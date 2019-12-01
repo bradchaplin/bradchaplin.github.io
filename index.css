@@ -75,10 +75,54 @@
   background-color: #f7f7ed;
 }
 
-a.contentlink:link, a.contentlink:visited {text-decoration:underline; color:#000000;}
+/*a.contentlink:link, a.contentlink:visited {text-decoration:underline; color:#000000;}
 a.contentlink:hover, a.contentlink:active {text-decoration:none; color:#658cfb;}
 a.sociallink:link, a.sociallink:visited {text-decoration:none;}
-a.sociallink:hover, a.sociallink:active {text-decoration:none;}
+a.sociallink:hover, a.sociallink:active {text-decoration:none;}*/
+
+a.contentlink {
+  text-decoration:underline; 
+  color:#000000;
+}
+
+a.contentlink:link {
+  text-decoration:underline;
+  color:#000000;
+}
+
+a.contentlink:visited {
+  text-decoration:underline;
+  color:#000000;
+}
+
+a.contentlink:hover {
+  text-decoration:none;
+  color:#658cfb;
+}
+
+a.contentlink:active {
+  text-decoration:none; color:#658cfb;
+}
+
+a.sociallink {
+  text-decoration:none;
+}
+
+a.sociallink:link {
+  text-decoration:none;
+}
+
+a.sociallink:visited {
+  text-decoration:none;
+}
+
+a.sociallink:hover {
+  text-decoration:none;
+}
+
+a.sociallink:active {
+  text-decoration:none;
+}
 
 .sticky {
   position: fixed;
@@ -196,6 +240,60 @@ a:hover.greenbutton {
   border-color: #333333;/* not showing. Change linkstyles so changes appear. */
   
 }
+
+/* link syntax */
+
+a.navstyle {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
+  text-align: center;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #2d2d28;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+a.navstyle:link {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #2d2d28;
+  width: 100%;
+}
+
+a.navstyle:visited {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #2d2d28;
+  width: 100%;
+}
+
+a.navstyle:hover {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #ebe9df;
+  width: 100%;
+}
+
+a.navstyle:active {
+  color: white;
+  font-size: 120px;
+  text-decoration: none;
+  background-color: #2d2d28;
+  width: 100%;
+}
+
+/* end link syntax */
+
 
 .footerstyle {
   position: /*inherit*/ /*initial*/ /*sticky*/ /*relative*/ /*absolute*/ /*static*/fixed;
