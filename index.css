@@ -75,8 +75,9 @@
   width: 80%;
   background-color: #f7f7ed;
   align-content: center;
-  text-align: right;
+  text-align: left;
 }
+
 a.contentlink {
   text-decoration:underline; 
   color:#000000;
