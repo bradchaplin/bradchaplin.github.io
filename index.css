@@ -45,10 +45,11 @@
 .content {
   padding-top: 20px;
   padding-bottom: 10px;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-bottom: 20px;
   background-color: #f7f7ed;
+  width: 80%;
 }
 
 a.contentlink:link, a.contentlink:visited {text-decoration:underline; color:#000000;}
@@ -87,7 +88,7 @@ a.sociallink:hover, a.sociallink:active {text-decoration:none;}
   padding-bottom: 80px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #e4e9f0;
+  background-color: #ebdec7;
   color: #929aa6;
   width: 80%; 
   margin: auto; /*centers the div*/
