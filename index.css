@@ -96,6 +96,11 @@ a.sociallink:hover, a.sociallink:active {text-decoration:none;}
   border-color: #b8c5db;
   border-style: solid;
   margin-bottom: 20px;
+  display: block;
+}
+
+.center {
+  text-align: center;
 }
 
 .footerstyle {
