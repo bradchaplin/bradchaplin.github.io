@@ -89,6 +89,12 @@ a.sociallink:hover, a.sociallink:active {text-decoration:none;}
   padding-top: 75px;
 }
 
+.social {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
 .social a {
   padding-top: 0px;
   padding-bottom: 0px;
