@@ -1,79 +1,275 @@
-<!DOCTYPE html>
-<html>
-	<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153563772-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-153563772-1');
-    </script>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="index.css">
-  <link rel="stylesheet" href="https://use.typekit.net/mcs4nef.css">
-  <script type="application/javascript" src="index.js"></script>
-	</head>
-<body class="body">
 
 
-	<div class="top-container">
+.body {
+  margin: 0;
+  font-family: Source Serif Pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding-bottom: 60px;
+  background-color: #f7f7ed;
+}
 
-  		<h2>Responsive Web Design</h2>
-  		<div>An introduction page</div>
+@font-face {
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  src: url ("https://use.typekit.net/mcs4nef.css")
+}
 
-	</div>
+@font-face {
+  font-family: Source Serif Pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  src: url ("https://use.typekit.net/mcs4nef.css");
+}
 
-	<div class="header" id="myHeader">
+.top-container {
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  background-color: #000000;
+  padding-top: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 15px;
+  line-height: 1px;
+  text-align: center;
+  color: #efefef;
+  height: 70px;
+}
 
-  		<p>Brad Chaplin</p>
+#myHeader {
+  
+}
 
+.header {
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1px;
+  background-color: #2d2d28;
+  color: #f1f1f1;
+  height: 35px;
+  text-align: left;
+  transition: height 1s ease 0s, margin 1s ease 0s;
+}
 
-	</div>
+.main {
+    flex: 1 0 auto;
+  }
 
-  <div class="main">
+.content {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 120px;
+  padding-right: 120px;
+  margin-bottom: 20px;
+  background-color: #f7f7ed;
+}
 
-	<div class="content" id="myContent">
+a.contentlink {
+  text-decoration:underline; 
+  color:#000000;
+}
 
-  		<h3 class="sans-serif">A QUICK INTRODUCTION</h3>
-  		<p>In the past I designed web pages, photographed product, and much more. Today I am using <a class="contentlink" href="https://www.sublimetext.com" target="blank">Sublime Text</a> for this simple introduction page.
-      Feel free to follow me or say hello on social.
-      </p>
+a.contentlink:link {
+  text-decoration:underline;
+  color:#000000;
+}
 
-      <div class="social">
+a.contentlink:visited {
+  text-decoration:underline;
+  color:#000000;
+}
 
-        <a class="sociallink" href="https://www.facebook.com/bradechaplin" target="blank"><img src="images/if_square-facebook_317727.png"></a>
+a.contentlink:hover {
+  text-decoration:none;
+  color:#658cfb;
+}
 
-        <a class="sociallink" href="https://twitter.com/bradchaplin" target="blank"><img src="images/if_square-twitter_317723.png"></a>
+a.contentlink:active {
+  text-decoration:none; color:#658cfb;
+}
 
-        <a class="sociallink" href="https://keybase.io/bradchaplin" target="blank"><img src="images/keybase-25.png"></a>
+a.sociallink {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  opacity: 1;
+}
 
-  		</div>
-  		
-	</div><!--content-->
+a.sociallink:link {
+  text-decoration:none;
+}
 
-  <div class="morecontent">
-    <h3 class="center">Recent Projects</h3>
-    <hr class="hrstyle">
-    <h4 class="sans-serif">CanDo</h4>
-    <p>CanDo is a responsive mockup site for a fictitious cannabis dispensary. No frameworks here, the html and css is vanilla and written using a text editor. The css is not minified yet. This project does not contain any php or javascript yet, with an exception being a google analytics tracking script. The contact form is awaiting a server than can handle the php used for form validation and processing. The form will be secure, malicious code is sanitized by the php. The php is not implemented due to GitHub's TOS.</p>
-    <a class="greenbutton" href="https://bradchaplin.github.io//Cannabis/index.html">CanDo</a>
-    <hr class="hrstyle">
+a.sociallink:visited {
+  text-decoration:none;
+}
 
+a.sociallink:hover {
+  opacity: .5;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
+}
 
-  </div>
+a.sociallink:active {
+  text-decoration:none;
+}
 
-  </div><!--main-->
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-  <footer class="footerstyle">
+.sticky + .content {
+  padding-top: 102px;
+}
 
-    <div class="footerstyle">
-      
-      <p class="footerstyle">&copy; 2019 Copyright Brad Chaplin</p>
+.social {
+  
+}
 
-    </div>
+.morecontent {
+  padding-top: 10px;
+  padding-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #ffffff;
+  color: #333333;
+  width: 80%; 
+  margin: auto; /*centers the div*/
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #b8c5db;
+  border-style: solid;
+  margin-bottom: 20px;
+  display: block;
+}
 
-  </footer>
-</body>
-</html>
+.center {
+  text-align: center;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.sans-serif {
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.greenbutton{
+  text-align: center;
+  line-height: 250%;
+  background-color: #71c447;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 3px;
+  border: 1px;
+  
+}
+
+.greenbutton{
+  text-align: center;
+  line-height: 225%;
+  background-color: #71c447;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 3px;
+  border: 1px;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  
+}
+
+a.greenbutton:link {
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: #71c447;
+  color: black;
+  text-decoration: none;
+  margin-top: 0px;
+  padding-top: 0px
+}
+
+a.greenbutton:visited {
+  color: black;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #71c447;
+}
+
+a.greenbutton:hover {
+  color: white;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #2d2d28;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+a.greenbutton:active {
+  color: black;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: none;
+}
+
+.hrstyle {
+  width: 60%;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footerstyle {
+  position: /*inherit*/ /*initial*/ /*sticky*/ /*relative*/ /*absolute*/ /*static*/fixed;
+  background-color: #ebebeb;
+  height: 40px;
+  line-height: 40px;
+  color: #2d2d28;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-family: helvetica;
+  font-size: 10pt;
+  text-align: center;
+}
