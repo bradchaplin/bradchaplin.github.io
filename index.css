@@ -234,11 +234,66 @@ a:active {
  
 } 
 
-a:hover.greenbutton {
-  background-color: #94db70;
-  border: 1px;/* not showing. Change linkstyles so changes appear. */
-  border-color: #333333;/* not showing. Change linkstyles so changes appear. */
+.greenbutton{
+  text-align: center;
+  line-height: 225%;
+  background-color: #71c447;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 3px;
+  border: 1px;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   
+}
+
+a.greenbutton:link {
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: #71c447;
+  color: black;
+  text-decoration: none;
+  margin-top: 0px;
+  padding-top: 0px
+}
+
+a.greenbutton:visited {
+  color: black;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #71c447;
+}
+
+a.greenbutton:hover {
+  color: white;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #2d2d28;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+a.greenbutton:active {
+  color: black;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: none;
 }
 
 /* link syntax */
