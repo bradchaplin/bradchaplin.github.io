@@ -45,11 +45,11 @@
 .content {
   padding-top: 20px;
   padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
   margin-bottom: 20px;
   background-color: #f7f7ed;
-  width: 80%;
+  width: 100%;
 }
 
 a.contentlink:link, a.contentlink:visited {text-decoration:underline; color:#000000;}
@@ -86,10 +86,11 @@ a.sociallink:hover, a.sociallink:active {text-decoration:none;}
 .morecontent {
   padding-top: 10px;
   padding-bottom: 80px;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: #ebdec7;
   color: #929aa6;
+  width: 80%; 
   margin: auto; /*centers the div*/
   border-radius: 4px;
   border-width: 1px;
