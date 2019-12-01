@@ -74,8 +74,9 @@
   margin-bottom: 20px;
   width: 80%;
   background-color: #f7f7ed;
+  align-content: center;
+  text-align: right;
 }
-
 a.contentlink {
   text-decoration:underline; 
   color:#000000;
