@@ -46,6 +46,9 @@
 }
 
 .header {
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 300;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
