@@ -2,12 +2,28 @@
 
 .body {
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Source Serif Pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   padding-bottom: 60px;
   background-color: #f7f7ed;
+}
+
+@font-face {
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  src: url ("https://use.typekit.net/mcs4nef.css")
+}
+
+@font-face {
+  font-family: Source Serif Pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  src: url ("https://use.typekit.net/mcs4nef.css");
 }
 
 .top-container {
