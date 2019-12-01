@@ -154,6 +154,8 @@ a:active {
 
 a:hover.greenbutton {
   background-color: #94db70;
+  border: 1px;
+  border-color: #333333;
   
 }
 
