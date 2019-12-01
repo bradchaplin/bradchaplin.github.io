@@ -105,7 +105,11 @@ a.contentlink:active {
 }
 
 a.sociallink {
-  text-decoration:none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  opacity: 1;
 }
 
 a.sociallink:link {
@@ -117,12 +121,52 @@ a.sociallink:visited {
 }
 
 a.sociallink:hover {
-  text-decoration:none;
+  opacity: .5;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
 }
 
 a.sociallink:active {
   text-decoration:none;
 }
+
+/*a {
+  text-decoration: none;
+  color: #000000;
+  font-family: helvetica;
+  font-size: 192 px;
+  font-weight: normal;
+  border: 1px;
+  
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+  
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color: #333333;
+  text-decoration: none;
+  background-color: #e2e0dd;
+  
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+  background-color: #d1cdc4;
+ 
+}*/
 
 .sticky {
   position: fixed;
@@ -139,21 +183,13 @@ a.sociallink:active {
 }
 
 
-.social a {
+/*.social a {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 3px;
   padding-right: 3px;
   opacity: 1;
-}
-
-.social a:hover {
-  opacity: .5;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
-  -o-transition: opacity .25s ease-in-out;
-}
+}*/
 
 .morecontent {
   padding-top: 10px;
@@ -197,42 +233,6 @@ a.sociallink:active {
   border: 1px;
   
 }
-
-a {
-  text-decoration: none;
-  color: #000000;
-  font-family: helvetica;
-  font-size: 192 px;
-  font-weight: normal;
-  border: 1px;
-  
-}
-
-a:link {
-  color: black;
-  text-decoration: none;
-  
-}
-
-a:visited {
-  color: black;
-  text-decoration: none;
-  
-}
-
-a:hover {
-  color: #333333;
-  text-decoration: none;
-  background-color: #e2e0dd;
-  
-}
-
-a:active {
-  color: black;
-  text-decoration: none;
-  background-color: #d1cdc4;
- 
-} 
 
 .greenbutton{
   text-align: center;
