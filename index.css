@@ -124,6 +124,9 @@ a.sociallink:hover, a.sociallink:active {text-decoration:none;}
 
 .center {
   text-align: center;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }
 
 .greenbutton{
