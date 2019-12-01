@@ -129,12 +129,12 @@ a.sociallink:active {
 
 .sticky {
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 100%;
 }
 
-.stickyPadding{
-  padding-top: 75px;
+.sticky + .content {
+  padding-top: 102px;
 }
 
 .social {
