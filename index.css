@@ -94,7 +94,7 @@ a.sociallink:hover, a.sociallink:active {text-decoration:none;}
   margin: auto; /*centers the div*/
   border-radius: 4px;
   border-width: 1px;
-  border-color: #b8c5db;
+  border-color: #ffffff;
   border-style: solid;
   margin-bottom: 20px;
   display: block;
@@ -155,8 +155,8 @@ a:active {
 
 a:hover.greenbutton {
   background-color: #94db70;
-  border: 1px;
-  border-color: #333333;
+  border: 1px;/* not showing. Change linkstyles so changes appear. */
+  border-color: #333333;/* not showing. Change linkstyles so changes appear. */
   
 }
 
