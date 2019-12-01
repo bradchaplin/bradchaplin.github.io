@@ -27,6 +27,10 @@
   src: url ("https://use.typekit.net/mcs4nef.css");
 }
 
+.sans-serif{
+  text-align: center;
+}
+
 .top-container {
   font-family: poynter-gothic-text, sans-serif;
   font-style: normal;
