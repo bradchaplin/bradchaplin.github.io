@@ -43,7 +43,19 @@
 }
 
 #myHeader {
-  
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1px;
+  background-color: #2d2d28;
+  color: #f1f1f1;
+  height: 35px;
+  text-align: left;
+  transition: height 1s ease 0s, margin 1s ease 0s;
 }
 
 .header {
@@ -139,7 +151,7 @@ a.sociallink:active {
 }
 
 .sticky + .content {
-  padding-top: 400px;
+  padding-top: 60px;
 }
 
 .social {
