@@ -75,7 +75,19 @@
     </div>
 
   </footer>
- <script type="javascript" src="index.js">
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("myHeader");
+var sticky = myHeader.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    myHeader.classList.add("sticky")
+  } else {
+    myHeader.classList.remove("sticky");
+  }
+}
 </script>
 </body>
 </html>
