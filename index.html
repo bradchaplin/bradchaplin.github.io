@@ -10,6 +10,7 @@
 
         gtag('config', 'UA-153563772-1');
     </script>
+    <script src="jquery/jquery-3.4.1.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="https://use.typekit.net/mcs4nef.css">
@@ -25,7 +26,7 @@
 
 	</div>
 
-	<div class="myHeader" id="myHeader">
+	<div class="header" id="myHeader">
 
   		<p>Brad Chaplin</p>
 
@@ -58,6 +59,8 @@
     <hr class="hrstyle">
     <h4 class="sans-serif">CanDo</h4>
     <p>CanDo is a responsive mockup site for a fictitious cannabis dispensary. No frameworks here, the html and css are vanilla and written using a text editor. The css is not minified yet. This project does not contain any php or javascript yet, with an exception being a google analytics tracking script. The contact form is awaiting a server than can handle the php used for form validation and processing. The form will be secure, malicious code is sanitized by the php. The php is not implemented due to GitHub's TOS.</p>
+    <p>Update</p>
+    <p>Added jquery</p>
     <a class="greenbutton" href="https://bradchaplin.github.io//Cannabis/index.html">CanDo</a>
     <hr class="hrstyle">
 
@@ -75,19 +78,33 @@
     </div>
 
   </footer>
+
 <script>
+  // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 
-var myHeader = document.getElementById("myHeader");
-var sticky = myHeader.offsetTop;
+// Get the header //
+var header = document.getElementById("myHeader");
+var content = document.getElementById("myContent");
 
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+var stickyPadding = content.offsetTop;
+//Add the sticky class to the header when you reach its scroll position.
+//Remove "sticky" when you leave the scroll position.
+//Add stickyPadding class to content class so that the padding under the header does not get affected.
+//Remove stickyPadding when not sticky and add content class back.
 function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    myHeader.classList.add("sticky")
-  } else {
-    myHeader.classList.remove("sticky");
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+    content.classList.add("stickyPadding");
+ } else {
+    header.classList.remove("sticky");
+    content.classList.remove("stickyPadding");
+    content.classList.add("content");
   }
-}
+} 
 </script>
+
 </body>
 </html>
