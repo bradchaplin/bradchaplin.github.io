@@ -58,7 +58,7 @@
   transition: height 1s ease 0s, margin 1s ease 0s;
 }
 
-.myHeader {
+.header {
   font-family: poynter-gothic-text, sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -78,7 +78,10 @@
     flex: 1 0 auto;
   }
 
-.content {
+#myContent {
+  padding-top: 30px;
+}
+  .content {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 20px;
@@ -151,7 +154,11 @@ a.sociallink:active {
 }
 
 .sticky + .content {
-  padding-top: 60px;
+  padding-top: 86px;
+}
+
+.stickyPadding {
+  padding-top:200px;
 }
 
 .social {
