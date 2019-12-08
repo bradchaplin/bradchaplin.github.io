@@ -47,7 +47,6 @@ h4 {
   font-weight: 300;
   font-size: 18px;
 }
-
 .top-container {
   font-family: poynter-gothic-text, sans-serif;
   font-style: normal;
@@ -226,6 +225,7 @@ a.sociallink:active {
   display: inline-block;
   margin: 3px;
   border: 1px;
+  padding: 20px;
   
 }
 
