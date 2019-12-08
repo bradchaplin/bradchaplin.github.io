@@ -187,7 +187,7 @@ a.sociallink:active {
 }
 
 .morecontent {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   padding-top: 10px;
   padding-bottom: 80px;
   padding-left: 20px;
@@ -200,7 +200,6 @@ a.sociallink:active {
   border-width: 1px;
   border-color: #b8c5db;
   border-style: solid;
-  margin-bottom: 20px;
   display: block;
 }
 
