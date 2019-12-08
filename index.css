@@ -365,4 +365,8 @@ a.greenbutton:active {
   background-color: #efefef;
   text-align: center;
   margin-top: 40px;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
 }
