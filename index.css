@@ -13,6 +13,15 @@
   background-color: #f7f7ed;
 }
 
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 40px;    /* Footer height */
+}
+
 @font-face {
   font-family: poynter-gothic-text, sans-serif;
   font-style: normal;
@@ -225,7 +234,7 @@ a.sociallink:active {
   display: inline-block;
   margin: 3px;
   border: 1px;
- margin-top: 40px;
+  margin-top: 40px;
   
 }
 
