@@ -27,6 +27,13 @@
   src: url ("https://use.typekit.net/mcs4nef.css");
 }
 
+h2 {
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+}
+
 .top-container {
   font-family: poynter-gothic-text, sans-serif;
   font-style: normal;
