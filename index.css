@@ -310,6 +310,22 @@ a.greenbutton:active {
   padding-bottom: 10px;
 }
 
+#footer {
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  color: black;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  background-color: #dedfe0;
+}
+
 #footerstyle {
   position: absolute;
   bottom: 0;
