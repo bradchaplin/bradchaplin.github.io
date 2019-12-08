@@ -315,6 +315,12 @@ a.greenbutton:active {
   bottom: 0;
   width: 100%;
   height: 2.5rem;            /* Footer height */
+  background-color: #ebebeb;
+  line-height: 40px;
+  color: #2d2d28;
+  font-family: helvetica;
+  font-size: 10pt;
+  text-align: center;
 }
 
 
