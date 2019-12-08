@@ -302,7 +302,7 @@ a.greenbutton:active {
 }
 
 .footerstyle {
-  position: /*inherit*/ /*initial*/ /*sticky*/ /*relative*/ /*absolute*/ /*static*/fixed;
+  position: /*inherit*/ /*initial*/ /*sticky*/ /*relative*/ absolute /*static*/ /*fixed*/;
   background-color: #ebebeb;
   height: 40px;
   line-height: 40px;
