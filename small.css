@@ -193,28 +193,19 @@ a.sociallink:active {
 
 .greenbutton{
   text-align: center;
-  line-height: 250%;
-  background-color: #71c447;
-  width: 120px;
-  height: 40px;
-  border-radius: 5px;
-  display: inline-block;
-  margin: 3px;
-  border: 1px;
-  margin-top: 40px;
-  
-}
-
-.greenbutton{
-  text-align: center;
   line-height: 225%;
   background-color: #71c447;
-  width: 120px;
+  width: auto;
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
   height: 40px;
   border-radius: 5px;
   display: inline-block;
   margin: 3px;
   border: 1px;
+  border-color: #333333
   font-family: poynter-gothic-text, sans-serif;
   font-style: normal;
   font-weight: 400;
