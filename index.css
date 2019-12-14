@@ -215,25 +215,31 @@ a:hover {
 a.contentlink {
   text-decoration:underline; 
   color:#000000;
+  background-color: none;
 }
 
 a.contentlink:link {
   text-decoration:underline;
   color:#000000;
+  background-color: none;
 }
 
 a.contentlink:visited {
   text-decoration:underline;
   color:#000000;
+  background-color: none;
 }
 
 a.contentlink:hover {
   text-decoration:none;
   color:#658cfb;
+  background-color: none;
 }
 
 a.contentlink:active {
-  text-decoration:none; color:#658cfb;
+  text-decoration:none; 
+  color:#658cfb;
+  background-color: none;
 }
 
 a.sociallink {
