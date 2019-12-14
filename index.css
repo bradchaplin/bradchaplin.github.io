@@ -156,40 +156,7 @@ a.navstyle:active {
   margin-bottom: 0px;
 }
 
-a:link {
-  font-family: poynter-gothic-text, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  background-color: none;
-  color: white;
-  text-decoration: none;
-  margin-top: 0px;
-  padding-top: 0px
-}
 
-a:visited {
-  color: white;
-  text-decoration: none;
-  background-color: none;
-}
-
-a:hover {
-  color: black;
-  text-decoration: none;
-  background-color: none;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  opacity: 1;
-
-}
-
- a:active {
-  color: white;
-  text-decoration: none;
-  background-color: none;
-}
 
 .main {
     flex: 1 0 auto;
