@@ -172,7 +172,7 @@ a.navstyle:hover {
   color: white;
   font-size: 20px;
   text-decoration: none;
-  background-color: blue;
+  background-color: #ebe9df;
   width: 100%;
 }
 
@@ -216,30 +216,45 @@ a.contentlink {
   text-decoration:underline; 
   color:#000000;
   background-color: none;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: bold;
+  font-weight: 300;
 }
 
 a.contentlink:link {
   text-decoration:underline;
   color:#000000;
   background-color: none;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: bold;
+  font-weight: 300;
 }
 
 a.contentlink:visited {
   text-decoration:underline;
   color:#000000;
   background-color: none;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: bold;
+  font-weight: 300;
 }
 
 a.contentlink:hover {
   text-decoration:none;
   color:#658cfb;
   background-color: none;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: bold;
+  font-weight: 300;
 }
 
 a.contentlink:active {
   text-decoration:none; 
   color:#658cfb;
   background-color: none;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: bold;
+  font-weight: 300;
 }
 
 a.sociallink {
