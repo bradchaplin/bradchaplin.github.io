@@ -32,23 +32,22 @@ h2 {
   font-family: poynter-gothic-text, sans-serif;
   font-style: bold;
   font-weight: 300;
-  font-size: 36px;
+  font-size: 24px;
 }
 
 h3 {
   font-family: poynter-gothic-text, sans-serif;
   font-style: bold;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 h4 {
   font-family: poynter-gothic-text, sans-serif;
   font-style: bold;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
 }
-
 .top-container {
   font-family: poynter-gothic-text, sans-serif;
   font-style: normal;
@@ -195,7 +194,7 @@ a.sociallink:active {
 .greenbutton{
   text-align: center;
   line-height: 225%;
-  color: #71c447;
+  color: #000000;
   background-color: #71c447;
   -webkit-box-shadow: 2px 2px 2px 2px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow: 2px 2px 2px 2px #ccc;  /* Firefox 3.5 - 3.6 */
@@ -227,7 +226,7 @@ a.greenbutton:link {
   font-weight: 400;
   font-size: 18px;
   background-color: #71c447;
-  color: #71c447;
+  color: #000000;
   text-decoration: none;
   margin-top: 0px;
   padding-top: 0px
@@ -239,7 +238,7 @@ a.greenbutton:visited {
   -webkit-box-shadow: 2px 2px 2px 2px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow: 2px 2px 2px 2px #ccc;  /* Firefox 3.5 - 3.6 */
   box-shadow: 2px 2px 2px 2px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */  width: auto;
-  color: #71c447;
+  color: #000000;
   font-family: poynter-gothic-text, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -273,7 +272,7 @@ a.greenbutton:active {
   -webkit-box-shadow: 2px 2px 2px 2px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow: 2px 2px 2px 2px #ccc;  /* Firefox 3.5 - 3.6 */
   box-shadow: 2px 2px 2px 2px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */  width: auto;
-  color: #71c447;
+  color: #000000;
   font-family: poynter-gothic-text, sans-serif;
   font-style: normal;
   font-weight: 300;
