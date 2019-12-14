@@ -197,9 +197,7 @@ a.sociallink:active {
   line-height: 225%;
   color: #323232;
   background-color: #71c447;
-  -webkit-box-shadow: 0px 0px 0px 0px;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 0px 0px 0px 0px;  /* Firefox 3.5 - 3.6 */
-  box-shadow: 0px 0px 0px 0px;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */  width: auto;
+
   padding-top: 0px;
   padding-left: 10px;
   padding-right: 10px;
@@ -245,9 +243,7 @@ a.greenbutton:visited {
 a.greenbutton:hover {
   border: 1px;
   border-color: #000000;
-  -webkit-box-shadow: 0px 0px 1px 4px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 0px 0px 1px 4px #ccc;  /* Firefox 3.5 - 3.6 */
-  box-shadow: 0px 0px 1px 4px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */  width: auto;
+  
   color: white;
   font-family: poynter-gothic-text, sans-serif;
   font-style: normal;
