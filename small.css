@@ -194,11 +194,11 @@ a.sociallink:active {
 .greenbutton{
   text-align: center;
   line-height: 225%;
-  color: #71c447;
+  color: #323232;
   background-color: #71c447;
-  -webkit-box-shadow: 2px 2px 2px 2px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 2px 2px 2px 2px #ccc;  /* Firefox 3.5 - 3.6 */
-  box-shadow: 2px 2px 2px 2px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */  width: auto;
+  -webkit-box-shadow: 0px 0px 2px 2px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0px 2px 2px 2px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow: 0px 0px 2px 2px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */  width: auto;
   padding-top: 0px;
   padding-left: 10px;
   padding-right: 10px;
@@ -208,7 +208,7 @@ a.sociallink:active {
   display: inline-block;
   margin: 3px;
   border: 1px;
-  border-color: #71c447;
+  border-color: #323232;
   font-family: poynter-gothic-text, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -218,15 +218,12 @@ a.sociallink:active {
 a.greenbutton:link {
   border: 1px;
   border-color: #71c447;
-  -webkit-box-shadow: 2px 2px 2px 2px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 2px 2px 2px 2px #ccc;  /* Firefox 3.5 - 3.6 */
-  box-shadow: 2px 2px 2px 2px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */  width: auto;
   font-family: poynter-gothic-text, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  background-color: #71c447;
-  color: #71c447;
+  background-color: #323232;
+  color: #323232;
   text-decoration: none;
   margin-top: 0px;
   padding-top: 0px
@@ -234,11 +231,8 @@ a.greenbutton:link {
 
 a.greenbutton:visited {
   border: 1px;
-  border-color: #71c447;
-  -webkit-box-shadow: 2px 2px 2px 2px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 2px 2px 2px 2px #ccc;  /* Firefox 3.5 - 3.6 */
-  box-shadow: 2px 2px 2px 2px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */  width: auto;
-  color: #71c447;
+  border-color: #323232;
+  color: #323232;
   font-family: poynter-gothic-text, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -249,10 +243,10 @@ a.greenbutton:visited {
 
 a.greenbutton:hover {
   border: 1px;
-  border-color: #71c447;
-  -webkit-box-shadow: 2px 2px 2px 2px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 2px 2px 2px 2px #ccc;  /* Firefox 3.5 - 3.6 */
-  box-shadow: 2px 2px 2px 2px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */  width: auto;
+  border-color: #000000;
+  -webkit-box-shadow: 0px 0px 1px 1px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0px 0px 1px 1px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow: 0px 0px 1px 1px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */  width: auto;
   color: white;
   font-family: poynter-gothic-text, sans-serif;
   font-style: normal;
@@ -268,11 +262,8 @@ a.greenbutton:hover {
 
 a.greenbutton:active {
   border: 1px;
-  border-color: #71c447;
-  -webkit-box-shadow: 2px 2px 2px 2px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 2px 2px 2px 2px #ccc;  /* Firefox 3.5 - 3.6 */
-  box-shadow: 2px 2px 2px 2px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */  width: auto;
-  color: #71c447;
+  border-color: #323232;
+  color: #323232;
   font-family: poynter-gothic-text, sans-serif;
   font-style: normal;
   font-weight: 300;
