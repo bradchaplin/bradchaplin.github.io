@@ -195,8 +195,7 @@ a.sociallink:active {
   text-align: center;
   line-height: 225%;
   background-color: #71c447;
-  overflow-wrap: break-word;
-  width: 120px;
+  width: auto;
   height: 40px;
   border-radius: 5px;
   display: inline-block;
