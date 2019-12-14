@@ -1,309 +1,86 @@
-html {
-  height: 100%;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html>
+	<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153563772-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-
-.body {
-  margin: 0 auto;
-  font-family: Source Serif Pro, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  display: flex;
-  min-height: 100%;
-  position: relative;
-  flex-direction: column;
-  padding-bottom: 60px;
-  background-color: #f7f7ed;
-}
-
-@font-face {
-  font-family: poynter-gothic-text, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  src: url ("https://use.typekit.net/mcs4nef.css")
-}
-
-@font-face {
-  font-family: Source Serif Pro, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  src: url ("https://use.typekit.net/mcs4nef.css");
-}
-
-h2 {
-  font-family: poynter-gothic-text, sans-serif;
-  font-style: bold;
-  font-weight: 300;
-  font-size: 36px;
-}
-
-h3 {
-  font-family: poynter-gothic-text, sans-serif;
-  font-style: bold;
-  font-weight: 300;
-  font-size: 24px;
-}
-
-h4 {
-  font-family: poynter-gothic-text, sans-serif;
-  font-style: bold;
-  font-weight: 300;
-  font-size: 18px;
-}
-
-.top-container {
-  font-family: poynter-gothic-text, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  background-color: #000000;
-  padding-top: 15px;
-  padding-right: 50px;
-  padding-left: 50px;
-  padding-bottom: 15px;
-  line-height: 1px;
-  text-align: center;
-  color: #efefef;
-  height: 70px;
-}
-
-#myHeader {
+        gtag('config', 'UA-153563772-1');
+    </script>
+    <script src="jquery/jquery-3.4.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="(min-width: 901px)" href="../index.css" />
+    <link rel="stylesheet" media="(max-width: 900px)" href="../small.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/mcs4nef.css">
   
-}
+	</head>
+<body class="body">
 
-.header {
-  font-family: poynter-gothic-text, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  line-height: 1px;
-  background-color: #2d2d28;
-  color: #f1f1f1;
-  height: 35px;
-  text-align: left;
-  transition: height 1s ease 0s, margin 1s ease 0s;
-}
+	<div class="top-container">
 
-.main {
-    flex: 1 0 auto;
-  }
+  		<h2>Responsive Web Design</h2>
+  		<div>Lessons</div>
 
-#myContent {
-  padding-top: 30px;
-}
-  .content {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: #ffffff;
-  color: #333333;
-  width: 80%; 
-  margin: auto; /*centers the div*/
-  margin-bottom: 20px;
-  display: block;
-  background-color: #f7f7ed;
-}
+	</div>
 
-a.contentlink {
-  text-decoration:underline; 
-  color:#000000;
-}
+	<div class="header" id="myHeader">
 
-a.contentlink:link {
-  text-decoration:underline;
-  color:#000000;
-}
+  		<p>Brad Chaplin</p>
 
-a.contentlink:visited {
-  text-decoration:underline;
-  color:#000000;
-}
 
-a.contentlink:hover {
-  text-decoration:none;
-  color:#658cfb;
-}
+	</div>
 
-a.contentlink:active {
-  text-decoration:none; color:#658cfb;
-}
+  <div class="main">
 
-a.sociallink {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 3px;
-  padding-right: 3px;
-  opacity: 1;
-}
+	<div class="content" id="myContent">
+   
 
-a.sociallink:link {
-  text-decoration:none;
-}
+  		</div>
+  		
+	</div><!--content-->
 
-a.sociallink:visited {
-  text-decoration:none;
-}
+  <div class="morecontent">
+    <h3 class="center">Lessons</h3>
+    <hr class="hrstyle">
+    <h4 class="sans-serif">Hamburger Slideout Menu</h4>
+    <p>Ham.</p>
+    <a class="greenbutton" href="https://bradchaplin.github.io/Lessons/hamburger menu">Hamburger Menu</a>
+    <hr class="hrstyle">
 
-a.sociallink:hover {
-  opacity: .5;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
-  -o-transition: opacity .25s ease-in-out;
-  scale: 1.3;
-}
+    <h4 class="sans-serif">Another</h4>
+    <p>Another.</p>
+    <a class="greenbutton" href="https://bradchaplin.github.io//Lessons/index.html">Another</a>
+    <hr class="hrstyle">
 
-a.sociallink:active {
-  text-decoration:none;
-}
 
-.social {
-  
-}
+  </div>
 
-.morecontent {
-  margin-bottom: 20px;
-  padding-top: 10px;
-  padding-bottom: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: #ffffff;
-  color: #333333;
-  width: 80%; 
-  margin: auto; /*centers the div*/
-  border-radius: 4px;
-  border-width: 1px;
-  border-color: #b8c5db;
-  border-style: solid;
-  display: block;
-}
+  </div><!--main-->
 
-.center {
-  text-align: center;
-  font-family: poynter-gothic-text, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-}
 
-.sans-serif {
-  font-family: poynter-gothic-text, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-}
+  <div class="footer">
+    <div class="social">
 
-.greenbutton{
-  text-align: center;
-  line-height: 225%;
-  color: #323232;
-  background-color: #71c447;
-  -webkit-box-shadow: 0px 0px 0px 0px #71c447;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 0px 0px 0px 0px #71c447;  /* Firefox 3.5 - 3.6 */
-  box-shadow: 0px 0px 0px 0px #71c447;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */  width: auto;
-  padding-top: 0px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 0px;
-  height: 40px;
-  border-radius: 5px;
-  display: inline-block;
-  margin: 3px;
-  border: 1px;
-  border-color: #323232;
-  font-family: poynter-gothic-text, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  
-}
+        <a class="sociallink" href="https://www.facebook.com/bradechaplin" target="blank"><img src="../images/if_square-facebook_317727.png"></a>
 
-a.greenbutton:link {
-  border: 1px;
-  border-color: #71c447;
-  font-family: poynter-gothic-text, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  background-color: #71c447;
-  color: #323232;
-  text-decoration: none;
-  margin-top: 0px;
-  padding-top: 0px
-}
+        <a class="sociallink" href="https://twitter.com/bradchaplin" target="blank"><img src="../images/if_square-twitter_317723.png"></a>
 
-a.greenbutton:visited {
-  border: 1px;
-  border-color: #323232;
-  color: #323232;
-  font-family: poynter-gothic-text, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  text-decoration: none;
-  background-color: #71c447;
-}
+        <a class="sociallink" href="https://keybase.io/bradchaplin" target="blank"><img src="../images/keybase-25.png"></a>
 
-a.greenbutton:hover {
-  border: 1px;
-  border-color: #000000;
-  -webkit-box-shadow: 0px 0px 1px 4px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 0px 0px 1px 4px #ccc;  /* Firefox 3.5 - 3.6 */
-  box-shadow: 0px 0px 1px 4px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */  width: auto;
-  color: white;
-  font-family: poynter-gothic-text, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  text-decoration: none;
-  background-color: #2d2d28;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-}
+      </div>
+        <p>© Copyright 2019 Brad Chaplin. All rights reserved.</p>
+  </div>
+ 
 
-a.greenbutton:active {
-  border: 1px;
-  border-color: #323232;
-  color: #323232;
-  font-family: poynter-gothic-text, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  text-decoration: none;
-  background-color: #71c447;
-}
 
-.hrstyle {
-  width: 60%;
-  border: 0;
-  height: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  padding-top: 10px;
-  padding-bottom: 4px;
-}
+</body>
+</html>
 
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
-  margin-top: 40px;
-  font-family: poynter-gothic-text, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-}
+
+
+
+
+
