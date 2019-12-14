@@ -248,14 +248,17 @@ a.sociallink {
   padding-left: 3px;
   padding-right: 3px;
   opacity: 1;
+  background-color: none;
 }
 
 a.sociallink:link {
   text-decoration:none;
+  background-color: none;
 }
 
 a.sociallink:visited {
   text-decoration:none;
+  background-color: none;
 }
 
 a.sociallink:hover {
@@ -265,10 +268,12 @@ a.sociallink:hover {
   -webkit-transition: opacity .25s ease-in-out;
   -o-transition: opacity .25s ease-in-out;
   scale: 1.3;
+  background-color: none;
 }
 
 a.sociallink:active {
   text-decoration:none;
+  background-color: none;
 }
 
 .social {
