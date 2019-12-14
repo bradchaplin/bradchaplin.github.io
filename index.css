@@ -217,6 +217,8 @@ a.sociallink:active {
 }
 
 a.greenbutton:link {
+  border: 1px;
+  border-color: #71c447;
   -webkit-box-shadow: 2px 2px 2px 2px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow: 2px 2px 2px 2px #ccc;  /* Firefox 3.5 - 3.6 */
   box-shadow: 2px 2px 2px 2px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */  width: auto;
@@ -232,6 +234,8 @@ a.greenbutton:link {
 }
 
 a.greenbutton:visited {
+  border: 1px;
+  border-color: #71c447;
   -webkit-box-shadow: 2px 2px 2px 2px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow: 2px 2px 2px 2px #ccc;  /* Firefox 3.5 - 3.6 */
   box-shadow: 2px 2px 2px 2px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */  width: auto;
@@ -245,6 +249,8 @@ a.greenbutton:visited {
 }
 
 a.greenbutton:hover {
+  border: 1px;
+  border-color: #71c447;
   -webkit-box-shadow: 2px 2px 2px 2px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow: 2px 2px 2px 2px #ccc;  /* Firefox 3.5 - 3.6 */
   box-shadow: 2px 2px 2px 2px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */  width: auto;
@@ -262,6 +268,8 @@ a.greenbutton:hover {
 }
 
 a.greenbutton:active {
+  border: 1px;
+  border-color: #71c447;
   -webkit-box-shadow: 2px 2px 2px 2px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow: 2px 2px 2px 2px #ccc;  /* Firefox 3.5 - 3.6 */
   box-shadow: 2px 2px 2px 2px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */  width: auto;
