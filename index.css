@@ -74,6 +74,12 @@ h4 {
   height: 120px;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: center
+}
+
 li {
   background-color: #2d2d28;
   display: inline-block;  
