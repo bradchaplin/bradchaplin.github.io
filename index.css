@@ -150,6 +150,41 @@ a.navstyle:active {
   margin-bottom: 0px;
 }
 
+a:link {
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #2d2d28;
+  color: white;
+  text-decoration: none;
+  margin-top: 0px;
+  padding-top: 0px
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+  background-color: #2d2d28;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+  background-color: #ebe9df;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  opacity: 1;
+
+}
+
+ a:active {
+  color: white;
+  text-decoration: none;
+  background-color: #d1cdc4;
+}
+
 #myHeader {
   
 }
