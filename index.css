@@ -196,7 +196,7 @@ a.sociallink:active {
   line-height: 225%;
   background-color: #71c447;
   width: auto;
-  padding: 5px;
+  padding: 0 4 4 0;
   height: 40px;
   border-radius: 5px;
   display: inline-block;
