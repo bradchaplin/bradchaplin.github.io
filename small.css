@@ -222,7 +222,7 @@ a.greenbutton:link {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  background-color: #323232;
+  background-color: #71c447;
   color: #323232;
   text-decoration: none;
   margin-top: 0px;
@@ -269,7 +269,7 @@ a.greenbutton:active {
   font-weight: 300;
   font-size: 18px;
   text-decoration: none;
-  background-color: none;
+  background-color: #71c447;
 }
 
 .hrstyle {
