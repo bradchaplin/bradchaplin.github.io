@@ -71,7 +71,7 @@ h4 {
   line-height: 1px;
   text-align: center;
   color: #efefef;
-  height: 170px;
+  height: 120px;
 }
 
 #myHeader {
@@ -89,7 +89,7 @@ h4 {
   line-height: 1px;
   background-color: #2d2d28;
   color: #f1f1f1;
-  height: 35px;
+  height: 45px;
   text-align: left;
   transition: height 1s ease 0s, margin 1s ease 0s;
 }
