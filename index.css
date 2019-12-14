@@ -32,22 +32,23 @@ h2 {
   font-family: poynter-gothic-text, sans-serif;
   font-style: bold;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 36px;
 }
 
 h3 {
   font-family: poynter-gothic-text, sans-serif;
   font-style: bold;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 h4 {
   font-family: poynter-gothic-text, sans-serif;
   font-style: bold;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
 }
+
 .top-container {
   font-family: poynter-gothic-text, sans-serif;
   font-style: normal;
@@ -222,7 +223,7 @@ a.greenbutton:link {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  background-color: #71c447;
+  background-color: #323232;
   color: #323232;
   text-decoration: none;
   margin-top: 0px;
@@ -269,7 +270,7 @@ a.greenbutton:active {
   font-weight: 300;
   font-size: 18px;
   text-decoration: none;
-  background-color: #71c447;
+  background-color: none;
 }
 
 .hrstyle {
