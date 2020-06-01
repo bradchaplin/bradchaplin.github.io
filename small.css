@@ -317,7 +317,7 @@ a.sociallink:active {
 }
 
 .morecontent {
-  margin-bottom: 120px;
+  margin-bottom: 20px;
   padding-top: 10px;
   padding-bottom: 30px;
   padding-left: 20px;
@@ -445,7 +445,7 @@ a.greenbutton:active {
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 140px;
   font-family: poynter-gothic-text, sans-serif;
   font-style: normal;
   font-weight: 400;
