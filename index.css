@@ -145,7 +145,7 @@ a.navstyle {
   font-style: normal;
   font-size: 20px;
   font-weight: 400;
-  background-color: #2d2d28;
+  background-color: none;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
@@ -156,7 +156,7 @@ a.navstyle:link {
   color: white;
   font-size: 20px;
   text-decoration: none;
-  background-color: #2d2d28;
+  background-color: none;
   width: 100%;
 }
 
@@ -164,7 +164,7 @@ a.navstyle:visited {
   color: white;
   font-size: 20px;
   text-decoration: none;
-  background-color: #2d2d28;
+  background-color: none;
   width: 100%;
 }
 
@@ -180,7 +180,7 @@ a.navstyle:active {
   color: white;
   font-size: 120px;
   text-decoration: none;
-  background-color: #2d2d28;
+  background-color: none;
   width: 100%;
 }
 
