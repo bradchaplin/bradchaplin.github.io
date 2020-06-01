@@ -437,6 +437,15 @@ a.greenbutton:active {
   padding-bottom: 4px;
 }
 
+.phone {
+  color: #323232;
+  font-family: poynter-gothic-text, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  text-decoration: none;
+}
+
 .footer {
   position: absolute;
   right: 0;
