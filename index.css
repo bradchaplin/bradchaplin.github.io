@@ -81,7 +81,7 @@ ul {
 }
 
 li {
-  background-color: #2d2d28;
+  background-color: none;
   display: inline-block;  
   font-size: 20px;
   padding: 8px;
