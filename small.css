@@ -420,6 +420,7 @@ a.greenbutton:active {
 }
 
 .footer {
+  margin-top: 20px;
   position: absolute;
   right: 0;
   bottom: 0;
